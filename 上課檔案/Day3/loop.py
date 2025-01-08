@@ -22,8 +22,15 @@
 # for i in l:
 #     print(i)
 
-s = 'hello' #-> ['h','e','l','l','o']
-for i in s:
-    print(i)
+# s = 'hello' #-> ['h','e','l','l','o']
+# for i in s:
+    # if plate.color == 'black': continue
+    # if full: break
+    # print(i)
 
 #continue, break
+# ex.輸出1~50其中不是3的倍數的所有數字，如果遇到23的倍數就結束程式
+for i in range(1,51):
+    if i % 3 == 0: continue
+    if i % 23 == 0: break
+    print(i)
